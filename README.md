@@ -55,22 +55,23 @@ _Add 2–3 screenshots or a short demo gif to show off the UI and features._
 git clone https://github.com/giogocadze/spotify-clone.git
 cd spotify-clone
 ```
-2.Install Dependencies
+2. **Install Dependencies**
 
 Using npm:
 
 ```bash
 npm install
 ```
-3.Configure Environment Variables
+3. **Configure Environment Variables**
 ```bash
 touch .env.local
 ```
 Then open .env.local and add your Supabase project credentials:
+NEXT_PUBLIC_SUPABASE_URL=https://gyxawqwwgtclzmiyznxx.supabase.com
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5eGF3cXd3Z3RjbHptaXl6bnh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5MTAzMzAsImV4cCI6MjA2MjQ4NjMzMH0.W0q-B-c-LaCPx49BsC99NbABWid0u2EGKi7CQaBOdpE
 
 
-4.Run the development server:
+4. **Run the development server:**
 ```bash
 npm run dev
 ```
