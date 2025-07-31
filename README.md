@@ -67,7 +67,6 @@ npm install
 touch .env.local
 ```
 Then open .env.local and add your Supabase project credentials:
-NEXT_PUBLIC_SUPABASE_URL=https://gyxawqwwgtclzmiyznxx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5eGF3cXd3Z3RjbHptaXl6bnh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5MTAzMzAsImV4cCI6MjA2MjQ4NjMzMH0.W0q-B-c-LaCPx49BsC99NbABWid0u2EGKi7CQaBOdpE
 
 
