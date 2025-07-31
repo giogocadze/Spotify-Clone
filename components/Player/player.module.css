@@ -1,0 +1,9 @@
+.fixedBottomBar {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    backdrop-filter: blur(12px);
+    width: 100%;
+    padding: 8px 16px;
+  }
+  

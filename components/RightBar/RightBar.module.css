@@ -1,0 +1,8 @@
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+    width: 80px;
+    gap: 24px;
+}

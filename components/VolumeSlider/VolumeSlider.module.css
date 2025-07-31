@@ -1,0 +1,29 @@
+/* Slider.module.css */
+
+.sliderRoot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    touch-action: none;
+    width: 100%;
+    height: 40px;
+    /* h-10 = 2.5rem = 40px */
+    cursor: pointer;
+}
+
+.sliderTrack {
+    background-color: #525252;
+    /* bg-neutral-600 */
+    position: relative;
+    flex-grow: 1;
+    border-radius: 9999px;
+    height: 3px;
+}
+
+.sliderRange {
+    position: absolute;
+    background-color: #10b981;
+    border-radius: 9999px;
+    height: 100%;
+}

@@ -1,0 +1,20 @@
+.playbutton {
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #22c55e;
+    padding: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.playbutton:hover {
+    transform: scale(1.1);
+}
+
+.playicon {
+    color: black;
+}

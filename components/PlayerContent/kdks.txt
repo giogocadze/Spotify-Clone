@@ -1,0 +1,8 @@
+   <div className={styles.wrapper}>
+                <MediaItem
+                    className={styles.transparentAuto}
+                    onClick={() => { }}
+                    artist={artists.filter((artist) => artist.id === song.artist_id)[0]}
+                    data={song}
+                />
+            </div>

@@ -1,0 +1,40 @@
+.headerContainer {
+    height: fit-content;
+    background: linear-gradient(to bottom, #14532d, #000000);
+    /* emerald-800 equivalent */
+    padding: 1rem;
+}
+
+.headerInner {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backButtonWrapper {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .backButtonWrapper {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+}
+
+.backButton {
+    border-radius: 9999px;
+    background-color: black;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.backIcon {
+    color: white;
+    font-size: 1.125rem;
+    /* text-lg = 18px */
+}

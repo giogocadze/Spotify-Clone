@@ -1,0 +1,58 @@
+.link {
+    display: flex;
+    height: auto;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    color: #9ca3af;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0.25rem 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link-active {
+    color: white;
+}
+
+.active-bar {
+    display: none;
+    position: absolute;
+    left: -15px;
+
+    height: 100%;
+    width: 0.5rem;
+    border-radius: 2px;
+    background-color: #10b981;
+    transition: all 0.2s ease-in-out;
+}
+
+.active-bar-active {
+    display: block;
+}
+
+.sidebarlabel {
+    display: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 769px) {
+    .sidebarlabel {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebarlabel {
+        display: none;
+    }
+}

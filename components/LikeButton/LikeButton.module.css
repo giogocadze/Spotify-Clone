@@ -1,0 +1,26 @@
+.clickable {
+    cursor: pointer;
+    margin-left: auto;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    background: none;
+}
+
+.clickable:hover {
+    opacity: 0.75;
+}
+
+.icon {
+    font-size: 22px;
+    /* text-lg */
+}
+
+.liked {
+    color: #34d399;
+    /* emerald-400 */
+}
+
+.unliked {
+    color: #9ca3af;
+    /* neutral-400 */
+}

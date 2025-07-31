@@ -1,0 +1,234 @@
+.maincontainer {
+  display: flex;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.maincontainerWithPlayer {
+  height: calc(100% - 90px);
+  /* Adjust to show exit/player bar */
+}
+
+.leftnavbar {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.myclass {
+  display: none;
+}
+
+.myclass {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.customcontainer {
+  display: none;
+  width: 300px;
+  height: 100%;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.custombox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.customcontainerbox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.maincontent {
+  flex: 1;
+  overflow-y: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  background-color: #4B5563;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.linkbutton {
+  background-color: transparent;
+  padding-top: 8px;
+
+  padding-bottom: 8px;
+  color: inherit;
+
+}
+
+.linkbutton::placeholder {
+  color: #e4e4e7;
+}
+
+.users {
+  color: #9CA3AF;
+  font-size: 24px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 9999px;
+  background-color: transparent;
+}
+
+
+.premium {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: auto;
+  position: relative;
+}
+
+.crown {
+  color: #fff;
+  position: absolute;
+  top: -10px;
+}
+
+.paraghrap {
+  white-space: nowrap;
+  color: #a3a3a3;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.transparent {
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  color: black;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.transparent:hover {
+  opacity: 0.75;
+}
+
+.transparent:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.user {
+  border-radius: 6px;
+  background-color: #10B981;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  color: black;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.user:hover {
+  opacity: 0.75;
+}
+
+.user:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.personadd {
+  color: #a3a3a3;
+}
+
+.logout {
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  color: black;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.logout:hover {
+  opacity: 0.75;
+}
+
+.logout:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+@media (min-width: 768px) {
+  .myclass {
+    display: block;
+  }
+
+  .customcontainer {
+    display: block;
+  }
+
+  .custombox {
+    display: none;
+  }
+}

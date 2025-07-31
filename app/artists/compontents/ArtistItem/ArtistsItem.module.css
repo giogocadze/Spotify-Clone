@@ -1,0 +1,46 @@
+.artist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* Tailwind rounded-md */
+    overflow: hidden;
+    gap: 16px;
+    /* Tailwind gap-4 */
+    background-color: rgba(163, 163, 163, 0.05);
+    /* Tailwind bg-neutral-400/5 */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 8px;
+    /* Tailwind p-2 */
+}
+
+.artist:hover {
+    background-color: rgba(163, 163, 163, 0.05);
+    /* Tailwind hover:bg-neutral-400/5 */
+}
+
+.thumbnail {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(163, 163, 163, 0.05);
+}
+
+.photo {
+    object-fit: cover;
+}
+
+.paraghrap {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

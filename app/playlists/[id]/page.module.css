@@ -1,0 +1,76 @@
+.container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cover {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .noImage {
+    width: 200px;
+    height: 200px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    color: #999;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-top: 0.5rem;
+    color: #aaa;
+  }
+  
+  .songsList {
+    margin-top: 2rem;
+  }
+  
+  .noSongs {
+    color: #777;
+    font-style: italic;
+  }
+  
+  .songItem {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  .songImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+  
+  .songDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .songTitle {
+    font-weight: 600;
+  }
+  
+  .songArtist {
+    font-size: 0.875rem;
+    color: #ccc;
+  }
+  

@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.button {
+    border-radius: 6px;
+    background-color: #10B981;
+    padding: 12px 12px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: black;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
+
+.aritst {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
