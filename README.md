@@ -7,8 +7,6 @@ A full-featured Spotify-inspired music streaming platform built with **Next.js 1
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
 [![MIT License](https://img.shields.io/github/license/giogocadze/spotify-clone)](LICENSE)
 
-![Screenshot](./public/screenshot.png) <!-- Replace this with an actual screenshot -->
-
 ---
 
 ## 🚀 Featured
@@ -42,10 +40,10 @@ A full-featured Spotify-inspired music streaming platform built with **Next.js 1
 ---
 
 ## 📸 Screenshots
+<img width="1467" height="826" alt="Screenshot 2025-07-31 at 6 53 09 PM" src="https://github.com/user-attachments/assets/5a1a9ad0-cfe3-43dd-91e5-43f7bd5f6648" />
+<img width="1470" height="834" alt="Screenshot 2025-07-31 at 6 54 58 PM" src="https://github.com/user-attachments/assets/b6297359-5482-46bb-9cb6-18cef3b1dcb4" />
+<img width="1470" height="839" alt="Screenshot 2025-07-31 at 6 57 11 PM" src="https://github.com/user-attachments/assets/41683133-17f4-4e81-b63d-7ceb46a479f4" />
 
-_Add 2–3 screenshots or a short demo gif to show off the UI and features._
-
----
 
 ## ⚙️ Getting Started
 
