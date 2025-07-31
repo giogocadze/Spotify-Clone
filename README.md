@@ -40,9 +40,9 @@ A full-featured Spotify-inspired music streaming platform built with **Next.js 1
 ---
 
 ## 📸 Screenshots
-<img width="1467" height="826" alt="Screenshot 2025-07-31 at 6 53 09 PM" src="https://github.com/user-attachments/assets/5a1a9ad0-cfe3-43dd-91e5-43f7bd5f6648" />
-<img width="1470" height="834" alt="Screenshot 2025-07-31 at 6 54 58 PM" src="https://github.com/user-attachments/assets/b6297359-5482-46bb-9cb6-18cef3b1dcb4" />
+<img width="1470" height="837" alt="Screenshot 2025-07-31 at 6 58 50 PM" src="https://github.com/user-attachments/assets/e36e2e03-425e-4471-b23f-b4760c20c37e" />
 <img width="1470" height="839" alt="Screenshot 2025-07-31 at 6 57 11 PM" src="https://github.com/user-attachments/assets/41683133-17f4-4e81-b63d-7ceb46a479f4" />
+<img width="1470" height="837" alt="Screenshot 2025-07-31 at 6 59 26 PM" src="https://github.com/user-attachments/assets/bb15d10c-a36f-4f4d-aa26-adf28e56d9e3" />
 
 
 ## ⚙️ Getting Started
