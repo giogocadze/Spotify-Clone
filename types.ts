@@ -82,11 +82,11 @@ export interface Playlist {
     title: string;
     user_id: string;
     created_at?: string;
-    image_url?: string;        // optional thumbnail image
+    image_url?: string;     
     description?: string;
 }
 export interface PlaylistSong {
-    id?: string; // optional if auto-generated
+    id?: string;
     playlist_id: string;
     song_id: string;
     created_at?: string;
