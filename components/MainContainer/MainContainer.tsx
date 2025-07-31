@@ -69,12 +69,6 @@ const MainContainer: React.FC<MainContainerProps> = ({ children }) => {
         active: pathName === "/favourites",
         href: "/favourites",
       },
-      {
-        icon: BsMusicNoteList,
-        label: "Playlists",
-        active: pathName === "/playlists",
-        href: "/playlists",
-      },
     ],
     [pathName]
   );
