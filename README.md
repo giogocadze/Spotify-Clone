@@ -16,7 +16,7 @@ A full-featured Spotify-inspired music streaming platform built with **Next.js 1
 - 🔐 **Authentication** – email & OAuth via **Supabase**
 - 📤 **Music upload & streaming** – via Supabase Storage
 - 🎨 **Dark-themed, responsive UI**
-- ☁️ **Deployed on Vercel**
+
 
 ---
 
